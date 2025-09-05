@@ -1,3 +1,8 @@
+/**
+ * Responsive navigation bar component.
+ * Handles scroll effects, desktop/mobile menus, and navigation links.
+ */
+
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";

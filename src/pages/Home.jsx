@@ -1,3 +1,8 @@
+/**
+ * Home page component.
+ * Composes the main layout, including ThemeToggle, StarBackground, and Navbar.
+ */
+
 import { Star } from "lucide-react";
 import { ThemeToggle } from "../components/ThemeToggle";
 import { StarBackground } from "../components/StarBackground";

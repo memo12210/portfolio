@@ -1,3 +1,9 @@
+/**
+ * Main application component.
+ * Sets up routing for the portfolio using React Router.
+ * Renders the Home page at the root path and NotFound for unmatched routes.
+ */
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { NotFound } from "./pages/NotFound";

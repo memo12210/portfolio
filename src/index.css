@@ -1,3 +1,8 @@
+/*
+ * Global CSS for the portfolio.
+ * Imports Tailwind CSS, defines custom theme variables, animations, and base styles.
+ */
+
 @import "tailwindcss";
 
 @theme {

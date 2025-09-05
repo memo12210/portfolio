@@ -1,3 +1,8 @@
+/**
+ * Theme toggle button component.
+ * Allows switching between light and dark mode, persists preference, and updates the document class.
+ */
+
 import { Moon, Sun } from "lucide-react";
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";

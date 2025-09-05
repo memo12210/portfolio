@@ -1,3 +1,8 @@
+/**
+ * Animated star background component.
+ * Renders stars and meteors for a cosmic visual effect.
+ */
+
 import { useEffect, useState } from "react";
 
 export const StarBackground = () => {
