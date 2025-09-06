@@ -1,6 +1,8 @@
 /**
  * Theme toggle button component.
- * Allows switching between light and dark mode, persists preference in a cookie, and updates the document class. */
+ * Allows switching between light and dark mode and persists theme preference in a cookie.
+ */
+
 import { Moon, Sun } from "lucide-react";
 import { useEffect, useState } from "react";
 import { cn, getCookie, setCookie } from "@/lib/utils";
