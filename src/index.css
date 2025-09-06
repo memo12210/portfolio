@@ -150,6 +150,11 @@
          hover:scale-105 active:scale-95;
 }
 
+@utility dark-button {
+  @apply px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10
+         transition-colors duration-300;
+}
+
 @utility star {
   @apply absolute rounded-full bg-white;
   box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.4);
