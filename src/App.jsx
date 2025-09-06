@@ -13,6 +13,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route index element={<Home />} />
+        {/* TODO: add route for cv page */}
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
