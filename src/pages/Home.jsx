@@ -1,12 +1,12 @@
 /**
  * Home page component.
- * Composes the main layout, including ThemeToggle, StarBackground, and Navbar.
+ * Composes the main layout, including ThemeToggle, StarBackground, Navbar, etc.
  */
 
-import { Star } from "lucide-react";
 import { ThemeToggle } from "../components/ThemeToggle";
 import { StarBackground } from "../components/StarBackground";
 import { Navbar } from "../components/Navbar";
+import { HeroSection } from "../components/HeroSection";
 
 export const Home = () => {
   return (
@@ -18,7 +18,9 @@ export const Home = () => {
       {/* Navbar */}
       <Navbar />
       {/* Main Content */}
-
+      <main>
+        <HeroSection />
+      </main>
       {/* Footer */}
     </div>
   );
